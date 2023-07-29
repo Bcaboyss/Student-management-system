@@ -169,10 +169,10 @@
             <?php for ($i=0;$i<12;$i++){?>
               <div class="col-lg-3 mb-4">
               <div class="card">
-                <div> <img src="" alt="" class ="img-fluid rounded-top"></div>
+                <div> <img src="logos\bca-admission-2021.jpeg" alt="" class ="img-fluid rounded-top"></div>
                 <div class="card-body">
                       Bachelor in computer Application(BCA)
-                      <button class="btn btn-block btn-primary btn-sm"></button>
+                      <button class="btn btn-block btn-primary btn-sm"> Apply Now</button>
                 </div>
               </div>
             </div>
@@ -195,8 +195,8 @@
         <?php for ($i = 0; $i < 3; $i++){ ?>
         <div class="col-lg-4 my-5">
           <div class="card">
-            <div class="col-5 position-absolute" style="top:-50px">
-              <img src="./assets/images/placeholder.jpg" alt="" class="mw-100 border rounded-circle">
+            <div class="col-6 position-absolute" style="top:-50px">
+              <img src="logos\M-FEJMZ0_400x400.jpg" alt="" class="mw-100 border rounded-circle">
             </div>
             <div class="card-body pt-5 mt-4">
               <h5 class="card-title mb-0">Teacher's Name</h5>
@@ -211,6 +211,93 @@
         <?php } ?>
       </div>
     </div>
+    
+      <!-- Carousel wrapper -->
+<div
+  id="carouselBasicExample"
+  class="carousel slide carousel-fade"
+  data-mdb-ride="carousel"
+>
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img
+        src="logos/bg3.jpg"
+        class="d-block w-100"
+        
+      />
+      
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img
+        src="logos/bg1.jpg"
+        class="d-block w-100"
+        
+      />
+     
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img
+        src="logos/bg2.jpg"
+        class="d-block w-100"
+        
+      />
+      
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+    
   </section>
   <footer style="background:url(./assets/images/still-life-851328_1280.jpg) center/cover no-repeat">
     <div  class="py-5 text-white" style="background:#000000bb"> 
