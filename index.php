@@ -1,44 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Font Awesome -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"
-/>
-<!-- Google Fonts -->
-<link
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-  rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
-  rel="stylesheet"
-/>
-<style>.btn {
-  padding: .45rem 1.5rem .35rem;
-}
-
-.gradient-custom {
-  /* fallback for old browsers */
-  background: #c471f5;
-
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
-
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
-}</style>
-</head>
+<?php include('header.php') ?>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg navbar-light ">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Navbar brand -->
@@ -67,7 +31,7 @@
           <a class="nav-link" href="#!">
             <div>
               <i class="far fa-envelope fa-lg mb-1"></i>
-              <span class="badge rounded-pill badge-notification bg-dark">11</span>
+             
             </div>
             About
           </a>
@@ -78,7 +42,7 @@
             aria-expanded="false">
             <div>
               <i class="far fa-envelope fa-lg mb-1"></i>
-              <span class="badge rounded-pill badge-notification bg-dark">11</span>
+             
             </div>
             Academic
           </a>
@@ -98,7 +62,7 @@
           <a class="nav-link" aria-disabled="true" href="#!">
             <div>
               <i class="far fa-envelope fa-lg mb-1"></i>
-              <span class="badge rounded-pill badge-notification bg-dark">11</span>
+             
             </div>
             contact us
           </a>
@@ -107,29 +71,24 @@
       <!-- Left links -->
 
       <!-- Right links -->
-      <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
-        <li class="nav-item text-center mx-2 mx-lg-1">
-          <a class="nav-link" href="#!">
-            <div>
-              <i class="fas fa-bell fa-lg mb-1"></i>
-              <span class="badge rounded-pill badge-notification bg-dark">11</span>
-            </div>
-            Messages
-          </a>
-        </li>
-        <li class="nav-item text-center mx-2 mx-lg-1">
-          <a class="nav-link" href="#!">
-            <div>
-              <i class="fas fa-globe-americas fa-lg mb-1"></i>
-              <span class="badge rounded-pill badge-notification bg-dark">11</span>
-            </div>
-            News
-          </a>
-        </li>
-      </ul>
+      <ul class="nav-item text-center mx-2 mx-lg-1">
+      
+          <a href="login.php" class="nav-link">
+          <div><i class="fa fa-user fa-lg "></i></div>  
+          User login</a>
+        
+        </ul>
+     <ul>   
+       
+          <a href="login.php" class="nav-link">
+          <div><i class="fa fa-user fa-lg mb-1"></i></div>  
+          Admin login</a>
+          </ul>
+      </div>
+    </div>
       <!-- Right links -->
 
-      <!-- Search form -->
+  
      
     </div>
     <!-- Collapsible wrapper -->
@@ -138,6 +97,19 @@
 </nav>
 <!-- Navbar -->
     <!-- MDB -->
+
+
+    <!-- scrolling text -->
+    <div class="row">
+    <div class="col-lg-12 col-sm-12 col-md-12">
+      <marquee direction="left" scrolldelay="200" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="12">
+          National Apprenticeship Training Scheme - <a href="http://portal.mhrdnats.gov.in/students" target="_blank">Click here for Registration </a>, <a href="https://cooperativecollegejsr.ac.in/images/nats/NATS_Student-Enroll_User_manual.pdf" target="_blank">Click here for NATS_Student-Enroll_User_manual</a>&nbsp;<img src="logos/new.gif" width="60px"> &nbsp;|&nbsp;
+          <a href="doc/Register in National Academic Bank of Credits 2023.pdf" target="_blank">Register in National Academic Bank of Credits 02-02-2023</a>&nbsp;<img src="logos/new.gif" width="60px"> &nbsp;|&nbsp;      
+              </marquee>
+           </div>
+            </div>
+             </div>
+     </div>   
     <div class="d-flex shadow" style = "height:400px;background:linear-gradient(-45deg,navy 50%,transparent 50%)">
       <div class="container-fluid my-auto">
         <div class="row">
@@ -146,7 +118,7 @@
             <a href="" class ="btn btn-lg btn-primary">Register</a>
           </div>
 
-            <div class="col-lg-6">
+            <!--<div class="col-lg-6">
              <div class="col-lg-8 mx-auto p-2 card">
                <div class="card-body">
                   <h4>Addmission Form</h4>
@@ -179,7 +151,7 @@
                       <button class="btn btn-primary btn-block">Submit Form</button>
               </form>
                </div>
-            </div>
+            </div>-->
         </div>
      </div>
 </div>
@@ -212,209 +184,92 @@
           
        </section>
 
-       <section class="py-5 bg-light">
-       <div>
-          <h2 class ="text-center">Our Faculty</h2>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
+       <section class="py-5">
+    <div class="text-center mb-5">
+      <h2 class="font-weight-bold">Our Faculty</h2>
+      <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perspiciatis obcaecati facilis nulla</p>
+    </div>
 
-            </div>
-          </div>
-        </div>
-
-       </section>
-       <!-- Footer -->
-<footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control" />
-              <label class="form-label" for="form5Example21">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Subscribe
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
-
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
+    <div class="container">
       <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
+        <?php for ($i = 0; $i < 3; $i++){ ?>
+        <div class="col-lg-4 my-5">
+          <div class="card">
+            <div class="col-5 position-absolute" style="top:-50px">
+              <img src="./assets/images/placeholder.jpg" alt="" class="mw-100 border rounded-circle">
+            </div>
+            <div class="card-body pt-5 mt-4">
+              <h5 class="card-title mb-0">Teacher's Name</h5>
+              <p><i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i></p>
+              <p class="card-text">
+                <b>Courses: </b> 5 <br>
+                <b>Ratings: </b> 
+              </p>
+            </div>
+          </div>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+        <?php } ?>
       </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
-  </div>
-  <!-- Grid container -->
+    </div>
+  </section>
+  <footer style="background:url(./assets/images/still-life-851328_1280.jpg) center/cover no-repeat">
+    <div  class="py-5 text-white" style="background:#000000bb"> 
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4">
+              <h5>Useful Links</h5>
 
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+              <ul class="fa-ul ml-4">
+                <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>Home</a></li>
+                <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>About Us</a></li>
+                <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>Courses</a></li>
+                <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>Terms & Conditions</a></li>
+                <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h5>Social Presence</h5>
+
+              <div>
+                <span class="fa-stack">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse text-dark"></i>
+                </span>
+                
+                     <span class="fa-stack">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse text-dark"></i>
+                </span>
+                <span class="fa-stack">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse text-dark"></i>
+                </span>
+            </div>
+            </div>
+            <div class="col-lg-3">
+              <h5>Subscribe Now</h5>
+              <form action="">
+                <!-- Material input -->
+                <div class="form-group">
+                  <input type="email" id="email-s" class="form-control" placeholder="Your Email">
+                </div>
+                <button class="btn btn-secondary btn-sm btn-block">Submit</button>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="py-2 bg-dark text-light">
+    <div class="container-fluid">
+      Copyright 2020-2020 All Rights Reseved. <a href="#" class="text-light">School Management System</a>
+    </div>
+  </section>
+
+
+
+  <?php include('footer.php') ?>
        
 
-        <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
-    
-</body>
-</html>
+ 
