@@ -73,14 +73,14 @@
       <!-- Right links -->
       <ul class="nav-item text-center mx-2 mx-lg-1">
       
-          <a href="login.php" class="nav-link">
+          <a href="user/login.php" class="nav-link">
           <div><i class="fa fa-user fa-lg "></i></div>  
           User login</a>
         
         </ul>
      <ul>   
        
-          <a href="login.php" class="nav-link">
+          <a href="admin/login.php" class="nav-link">
           <div><i class="fa fa-user fa-lg mb-1"></i></div>  
           Admin login</a>
           </ul>
@@ -268,7 +268,9 @@
     <div class="carousel-item">
       <img
         src="logos/bg2.jpg"
-        class="d-block w-100"
+        cl
+        
+        ass="d-block w-100"
         
       />
       
